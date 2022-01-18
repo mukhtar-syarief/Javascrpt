@@ -20,13 +20,14 @@ for (let j=1;j<=pemain;j++){
     }
 }
 }
-}
-
-console.log(main());
-
 const again=confirm("Apakah ingin bermain lagi.?")
 if(again==true){
 main();
 } else{
 alert("Terimakasih telah bermain")
 }
+}
+
+console.log(main());
+
+
